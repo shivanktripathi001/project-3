@@ -1,0 +1,171 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+/* ------------- */
+/* --- NAVBAR--- */
+/* ------------- */
+
+
+
+
+.navbar{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: #000;
+
+}
+
+.grow-list{
+
+    flex-grow: 1;
+
+}
+
+img{
+    width: 92px;
+    height: 32px;
+}
+
+
+.line{
+
+
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+
+}
+
+
+.list{
+
+
+
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 64px;
+}
+.list-item:hover{
+    
+    text-decoration: underline;
+
+}
+.logo,.list-item{
+
+    cursor:pointer;
+
+}
+
+.small-btn{
+
+
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.small-btn:hover{
+
+    background-color:#fff;
+    color: #ba0cc5;
+
+
+}
+
+
+
+
+/* ---------- */
+/* --------- */
+/* -------- */
+
+
+
+.hero{
+
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true " );
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center;
+}
+
+.hero-heading{
+
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 98px;
+    color: #ffffff;
+    padding-top: 80px;
+
+
+}
+
+
+
+.hero-description{
+
+
+
+
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 45px;
+    font-style: normal;
+}
+
+.large-btn{
+
+    background: #ba0cc5;
+    border-radius: 11px;
+    font-style: normal;
+    line-height: 45px;
+    font-weight: 600;
+    border: none;
+    padding: 4px 12px;
+    margin-top: 64px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.large-btn:hover{
+
+    background-color:#fff;
+    color: #ba0cc5;
+
+
+}
